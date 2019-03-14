@@ -1,0 +1,6 @@
+{
+	"cmd": ["csc", "/nologo", "/out:$file_base_name.exe", "$file"],
+	"shell" : true,
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector" : "source.csc"
+}
